@@ -1,6 +1,7 @@
 # binary-gender-classifier
 
 Classifies one as either male or female given body metrics, with three sci-kit classifiers: 
+
 1. Decision Tree Classifier 
 2. MLP Classifier 
 3. Quadratic Discriminant Analysis 

@@ -1,5 +1,12 @@
-# User input variables 
+# User input gender 
 gender = (input("Would you consider yourself a male or a female? :" ))
+
+# Making sure user type the desired input 
+
+while gender not in ("male", "female"):
+	gender = input("Please type either male or female: ")		
+
+# User input body metrics
 height = int(input("What is your height in cm: "))
 weight = int(input("What is your weight in kg: "))
 shoe_size = int(input("What is your shoe size in Euro: "))

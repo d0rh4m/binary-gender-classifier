@@ -33,7 +33,7 @@ clf = clf.fit(X,Y)
 
 prediction = clf.predict([[height, weight, shoe_size]])
 
-print ("Tree Classifier Bot thinks you are a",prediction)
+print ("Tree Classifier thinks you are a",prediction)
 
 score = accuracy_score(gender_true, prediction)
 
@@ -50,7 +50,7 @@ clf1 = clf1.fit(X,Y)
 
 prediction1 = clf1.predict([[height, weight, shoe_size]])
 
-print ("MLP Classifier Bot thinks you are a",prediction1)
+print ("MLP Classifier thinks you are a",prediction1)
 
 score1 = accuracy_score(gender_true, prediction1)
 
@@ -67,7 +67,7 @@ clf2 = clf2.fit(X,Y)
 
 prediction2 = clf2.predict([[height, weight, shoe_size]])
 
-print ("Quadratic Bot thinks you are a",prediction2)
+print ("Quadratic Discriminant thinks you are a",prediction2)
 
 score2 = accuracy_score(gender_true, prediction2)
 
